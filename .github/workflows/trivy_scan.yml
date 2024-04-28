@@ -17,3 +17,5 @@ jobs:
         with:
           scan-type: "fs"
           scan-ref: "."
+          ignore-unfixed: true
+          exit-code: "1"
