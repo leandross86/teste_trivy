@@ -13,6 +13,8 @@ app.get("/seach", (req, res) => {
   // Executa a consulta SQL...
 });
 
+
+
 // Rota Vulrãvel a XSS (Cross-Site Scripting)
 app.get("/user/:name", (req, res) => {
   const userName = req.params.name;
