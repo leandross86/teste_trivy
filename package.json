@@ -6,9 +6,9 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.21.1",
     "body-parser": "^1.19.0",
-    "cookie-parser": "^1.4.5",
+    "cookie-parser": "^1.4.7",
     "lodash": "4.17.10",
     "debug": "^4.2.0",
     "request": "^2.88.2",
